@@ -1,0 +1,7 @@
+<div id="box">
+    <span *ngFor="let i of numbers">
+        <span *ngFor="let j of numbers" class="tile" id="{{i}}-{{j}}" (click)="check($event)">
+            {{i}}-{{j}}
+        </span>
+    </span>
+</div>

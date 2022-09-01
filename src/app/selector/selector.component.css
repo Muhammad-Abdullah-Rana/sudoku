@@ -1,0 +1,8 @@
+#selections{
+    height: 50px;
+    width: 500px;
+}
+.tile{
+    border: solid 2px darkgrey;
+    height: 46px;
+}

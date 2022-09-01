@@ -1,0 +1,6 @@
+
+<div class="container text-center pt-5">
+  <app-errors *ngIf="errCount > 0" [incrementError]="errCount"></app-errors>
+  <app-frame [selectedNumb]="selectedNumb"></app-frame>
+  <app-selector (selectedNumb)="selectedNumb = $event"></app-selector>
+</div>
